@@ -1,0 +1,22 @@
+>>> cc
+
+
+
+>>> ld
+
+
+LX51 LINKER/LOCATER V4.66.100.0 - SN: Eval Version
+COPYRIGHT Copyright (C) 1995-2021, Arm Limited or its Affiliates. All rights reserved.
+"@d:\BFOE\3rd_year\2nd_term_2024\Microprocessor based system "(b)-E1322\Projects\c-projects\calc_uart\uart_lcd\build\Release\uart_lcd.lnp .\build\Release\.obj\src\main.o TO .\build\Release\uart_lcd
+PRINT(.\build\Release\uart_lcd.map) REMOVEUNUSED
+
+*** WARNING L48: IGNORED RECURSIVE CALL
+    CALLED:  _DELAY/MAIN
+    CALLER:  _LCD_COMM/MAIN
+
+******************************************************************************
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 00EBH BYTE (11%) *
+******************************************************************************
+
+Program Size: data=14.0 xdata=0 const=7 code=280
+LX51 RUN COMPLETE.  1 WARNING(S),  0 ERROR(S)

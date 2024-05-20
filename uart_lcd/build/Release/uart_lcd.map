@@ -1,0 +1,230 @@
+LX51 LINKER/LOCATER V4.66.100.0                                                         05/06/2024  17:56:27  PAGE 1
+
+
+LX51 LINKER/LOCATER V4.66.100.0, INVOKED BY:
+C:\KEIL_V5\C51\BIN\LX51.EXE .\BUILD\RELEASE\.OBJ\SRC\MAIN.O TO .\BUILD\RELEASE\UART_LCD PRINT (.\build\Release\uart_lcd.
+>> map) REMOVEUNUSED
+
+
+
+
+PROGRAM RECURSIONS REMOVED FROM CALL TREE
+=========================================
++--> _DELAY/MAIN
+<--+ _LCD_COMM/MAIN
+
+
+
+CPU MODE:     8051 MODE
+MEMORY MODEL: SMALL
+
+
+INPUT MODULES INCLUDED:
+  .\BUILD\RELEASE\.OBJ\SRC\MAIN.O (MAIN)
+         COMMENT TYPE 0: C51 V9.60.7.0
+  C:\KEIL_V5\C51\LIB\C51S.LIB (?C_STARTUP)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+  C:\KEIL_V5\C51\LIB\C51S.LIB (?C?CLDOPTR)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+
+
+ACTIVE MEMORY CLASSES OF MODULE:  .\BUILD\RELEASE\UART_LCD (MAIN)
+
+BASE        START       END         USED      MEMORY CLASS
+==========================================================
+C:000000H   C:000000H   C:00FFFFH   000118H   CODE
+I:000000H   I:000000H   I:00007FH   00000DH   DATA
+C:000000H   C:000000H   C:00FFFFH   000007H   CONST
+I:000000H   I:000000H   I:0000FFH   000001H   IDATA
+
+
+MEMORY MAP OF MODULE:  .\BUILD\RELEASE\UART_LCD (MAIN)
+
+
+START     STOP      LENGTH    ALIGN  RELOC    MEMORY CLASS   SEGMENT NAME
+=========================================================================
+
+* * * * * * * * * * *   D A T A   M E M O R Y   * * * * * * * * * * * * *
+000000H   000007H   000008H   ---    AT..     DATA           "REG BANK 0"
+000008H   00000CH   000005H   BYTE   UNIT     DATA           _DATA_GROUP_
+00000DH   00000DH   000001H   BYTE   UNIT     IDATA          ?STACK
+
+* * * * * * * * * * *   C O D E   M E M O R Y   * * * * * * * * * * * * *
+000000H   000002H   000003H   ---    OFFS..   CODE           ?CO??C_STARTUP?0
+000003H   00002EH   00002CH   BYTE   UNIT     CODE           ?PR?MAIN?MAIN
+00002FH   000059H   00002BH   BYTE   UNIT     CODE           ?PR?_LCD_STRING?MAIN
+00005AH   000080H   000027H   BYTE   UNIT     CODE           ?PR?_DELAY?MAIN
+000081H   000096H   000016H   BYTE   UNIT     CODE           ?PR?LCD_INIT?MAIN
+000097H   0000A6H   000010H   BYTE   UNIT     CODE           ?PR?_LCD_COMM?MAIN
+0000A7H   0000B6H   000010H   BYTE   UNIT     CODE           ?PR?_LCD_DATA?MAIN
+0000B7H   0000C2H   00000CH   BYTE   UNIT     CODE           ?PR?LCD_CLEAR?MAIN
+0000C3H   0000CEH   00000CH   BYTE   UNIT     CODE           ?PR?UART_INIT?MAIN
+0000CFH   0000D6H   000008H   BYTE   UNIT     CODE           ?PR?INITIAL?MAIN
+0000D7H   0000DEH   000008H   BYTE   UNIT     CODE           ?PR?UART_RXCHAR?MAIN
+0000DFH   0000E5H   000007H   BYTE   UNIT     CONST          ?CO?MAIN
+0000E6H   0007FFH   00071AH   ---    ---      **GAP**
+000800H   00082CH   00002DH   BYTE   UNIT     CODE           ?C?LIB_CODE
+00082DH   0008F8H   0000CCH   ---    ---      **GAP**
+0008F9H   000904H   00000CH   BYTE   UNIT     CODE           ?C_C51STARTUP
+
+LX51 LINKER/LOCATER V4.66.100.0                                                       05/06/2024  17:56:27  PAGE 2
+
+
+* * * * * * * * *   R E M O V E D     S E G M E N T S   * * * * * * * *
+   *DEL*:           000008H   BYTE   UNIT     CODE           ?PR?_UART_TXCHAR?MAIN
+
+
+
+OVERLAY MAP OF MODULE:   .\BUILD\RELEASE\UART_LCD (MAIN)
+
+
+FUNCTION/MODULE              BIT_GROUP   DATA_GROUP 
+--> CALLED FUNCTION/MODULE  START  STOP  START  STOP
+====================================================
+?C_C51STARTUP               ----- -----  ----- -----
+  +--> MAIN/MAIN
+
+MAIN/MAIN                   ----- -----  ----- -----
+  +--> INITIAL/MAIN
+  +--> UART_INIT/MAIN
+  +--> LCD_INIT/MAIN
+  +--> _LCD_STRING/MAIN
+  +--> LCD_CLEAR/MAIN
+  +--> UART_RXCHAR/MAIN
+  +--> _LCD_DATA/MAIN
+
+INITIAL/MAIN                ----- -----  ----- -----
+
+UART_INIT/MAIN              ----- -----  ----- -----
+
+LCD_INIT/MAIN               ----- -----  ----- -----
+  +--> _DELAY/MAIN
+  +--> _LCD_COMM/MAIN
+
+_DELAY/MAIN                 ----- -----  ----- -----
+  +--> _LCD_COMM/MAIN
+
+_LCD_COMM/MAIN              ----- -----  ----- -----
+  +--> _DELAY/MAIN
+
+_LCD_STRING/MAIN            ----- -----  0008H 000CH
+  +--> _LCD_DATA/MAIN
+
+_LCD_DATA/MAIN              ----- -----  ----- -----
+  +--> _DELAY/MAIN
+
+LCD_CLEAR/MAIN              ----- -----  ----- -----
+  +--> _LCD_COMM/MAIN
+  +--> _DELAY/MAIN
+
+UART_RXCHAR/MAIN            ----- -----  ----- -----
+
+
+
+PUBLIC SYMBOLS OF MODULE:  .\BUILD\RELEASE\UART_LCD (MAIN)
+
+
+      VALUE       CLASS    TYPE      PUBLIC SYMBOL NAME
+      =================================================
+      01000800H   CODE     ---       ?C?CLDOPTR
+      00000000H   NUMBER   ---       ?C?CODESEG
+      00000000H   NUMBER   ---       ?C?XDATASEG
+      01000003H   CODE     ---       ?C_START
+      01000000H   CODE     ---       ?C_STARTUP
+      01000061H   CODE     ---       _DELAY
+      01000097H   CODE     ---       _LCD_COMM
+      010000A7H   CODE     ---       _LCD_DATA
+      0100002FH   CODE     ---       _LCD_STRING
+LX51 LINKER/LOCATER V4.66.100.0                                                       05/06/2024  17:56:27  PAGE 3
+
+
+*DEL*:00000000H   CODE     ---       _UART_TxChar
+      010000CFH   CODE     ---       initial
+      010000B7H   CODE     ---       LCD_CLEAR
+      01000081H   CODE     ---       LCD_INIT
+      01000003H   CODE     ---       main
+      010000C3H   CODE     ---       UART_Init
+      010000D7H   CODE     ---       UART_RxChar
+
+
+
+SYMBOL TABLE OF MODULE:  .\BUILD\RELEASE\UART_LCD (MAIN)
+
+      VALUE       REP       CLASS    TYPE      SYMBOL NAME
+      ====================================================
+      ---         MODULE    ---      ---       MAIN
+      01000003H   PUBLIC    CODE     ---       main
+      010000D7H   PUBLIC    CODE     ---       UART_RxChar
+      010000C3H   PUBLIC    CODE     ---       UART_Init
+      0100002FH   PUBLIC    CODE     ---       _LCD_STRING
+      010000A7H   PUBLIC    CODE     ---       _LCD_DATA
+      010000B7H   PUBLIC    CODE     ---       LCD_CLEAR
+      01000081H   PUBLIC    CODE     ---       LCD_INIT
+      01000097H   PUBLIC    CODE     ---       _LCD_COMM
+      010000CFH   PUBLIC    CODE     ---       initial
+      01000061H   PUBLIC    CODE     ---       _DELAY
+
+      0100005AH   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      01000061H   BLOCK     CODE     ---       LVL=0
+      01000061H   BLOCK     CODE     NEAR LAB  LVL=1
+      00000004H   SYMBOL    DATA     VOID      I
+      00000002H   SYMBOL    DATA     VOID      J
+      ---         BLOCKEND  ---      ---       LVL=1
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      010000CFH   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      01000097H   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      01000081H   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      010000B7H   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      010000A7H   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      0100002FH   BLOCK     CODE     ---       LVL=0
+      01000035H   BLOCK     CODE     NEAR LAB  LVL=1
+      0000000BH   SYMBOL    DATA     VOID      i
+      ---         BLOCKEND  ---      ---       LVL=1
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      010000C3H   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      010000D7H   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      01000003H   BLOCK     CODE     ---       LVL=0
+      01000003H   BLOCK     CODE     NEAR LAB  LVL=1
+LX51 LINKER/LOCATER V4.66.100.0                                                       05/06/2024  17:56:27  PAGE 4
+
+
+      00000001H   SYMBOL    DATA     VOID      indata
+      ---         BLOCKEND  ---      ---       LVL=1
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      ---         MODULE    ---      ---       ?C_STARTUP
+      01000000H   PUBLIC    CODE     ---       ?C_STARTUP
+
+      ---         MODULE    ---      ---       ?C?CLDOPTR
+      01000800H   PUBLIC    CODE     ---       ?C?CLDOPTR
+
+
+
+*** WARNING L48: IGNORED RECURSIVE CALL
+    CALLED:  _DELAY/MAIN
+    CALLER:  _LCD_COMM/MAIN
+
+******************************************************************************
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 00EBH BYTE (11%) *
+******************************************************************************
+
+Program Size: data=14.0 xdata=0 const=7 code=280
+LX51 RUN COMPLETE.  1 WARNING(S),  0 ERROR(S)

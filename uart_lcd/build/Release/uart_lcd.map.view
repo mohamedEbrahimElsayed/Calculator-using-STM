@@ -1,0 +1,3 @@
+tool: KEIL_C51
+fileName: uart_lcd.map
+elfName: uart_lcd

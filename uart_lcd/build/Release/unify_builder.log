@@ -1,0 +1,172 @@
+[2024-05-06 00:01:51]	[done]
+	build successfully !
+
+[2024-05-06 00:02:09]	[done]
+	build successfully !
+
+[2024-05-06 00:04:21]	[done]
+	build successfully !
+
+[2024-05-06 00:14:58]	[done]
+	build successfully !
+
+[2024-05-06 00:21:53]	[done]
+	build successfully !
+
+[2024-05-06 00:24:14]	[done]
+	build successfully !
+
+[2024-05-06 00:25:13]	[done]
+	build successfully !
+
+[2024-05-06 00:26:04]	[done]
+	build successfully !
+
+[2024-05-06 00:36:25]	[done]
+	build successfully !
+
+[2024-05-06 00:56:24]	[done]
+	build successfully !
+
+[2024-05-06 00:57:11]	[done]
+	build successfully !
+
+[2024-05-06 16:45:29]	[done]
+	build successfully !
+
+[2024-05-06 16:46:47]	[done]
+	build successfully !
+
+[2024-05-06 16:52:19]	compilation failed at : "d:\BFOE\3rd_year\2nd_term_2024\Microprocessor based system (b)-E1322\Projects\c-projects\calc_uart\uart_lcd\src\main.c", exit code: 2
+command: 
+  "C:\Keil_v5\C51\BIN\C51.exe" .\src\main.c OMF2 TABS(4) CODE NOCOND SYMBOLS PRINT(.\build\Release\.obj\src\main.lst) INCDIR(C:/Keil_v5/C51/INC;src) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) OBJECT(.\build\Release\.obj\src\main.o)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: Eval Version
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C101 IN LINE 96 OF .\SRC\MAIN.C: ''h': invalid character constant
+*** ERROR C141 IN LINE 96 OF .\SRC\MAIN.C: syntax error near 'ello', expected ','
+*** ERROR C101 IN LINE 96 OF .\SRC\MAIN.C: '')': invalid character constant
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  3 ERROR(S)
+
+[2024-05-06 16:52:49]	[done]
+	build successfully !
+
+[2024-05-06 17:08:15]	compilation failed at : "d:\BFOE\3rd_year\2nd_term_2024\Microprocessor based system (b)-E1322\Projects\c-projects\calc_uart\uart_lcd\src\main.c", exit code: 2
+command: 
+  "C:\Keil_v5\C51\BIN\C51.exe" .\src\main.c OMF2 TABS(4) CODE NOCOND SYMBOLS PRINT(.\build\Release\.obj\src\main.lst) INCDIR(C:/Keil_v5/C51/INC;src) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) OBJECT(.\build\Release\.obj\src\main.o)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: Eval Version
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C231 IN LINE 13 OF C:/Keil_v5/C51/INC\reg51.h: 'P0': redefinition
+*** ERROR C231 IN LINE 14 OF C:/Keil_v5/C51/INC\reg51.h: 'P1': redefinition
+*** ERROR C231 IN LINE 15 OF C:/Keil_v5/C51/INC\reg51.h: 'P2': redefinition
+*** ERROR C231 IN LINE 16 OF C:/Keil_v5/C51/INC\reg51.h: 'P3': redefinition
+*** ERROR C231 IN LINE 17 OF C:/Keil_v5/C51/INC\reg51.h: 'PSW': redefinition
+*** ERROR C231 IN LINE 18 OF C:/Keil_v5/C51/INC\reg51.h: 'ACC': redefinition
+*** ERROR C231 IN LINE 19 OF C:/Keil_v5/C51/INC\reg51.h: 'B': redefinition
+*** ERROR C231 IN LINE 20 OF C:/Keil_v5/C51/INC\reg51.h: 'SP': redefinition
+*** ERROR C231 IN LINE 21 OF C:/Keil_v5/C51/INC\reg51.h: 'DPL': redefinition
+*** ERROR C231 IN LINE 22 OF C:/Keil_v5/C51/INC\reg51.h: 'DPH': redefinition
+*** ERROR C231 IN LINE 23 OF C:/Keil_v5/C51/INC\reg51.h: 'PCON': redefinition
+*** ERROR C231 IN LINE 24 OF C:/Keil_v5/C51/INC\reg51.h: 'TCON': redefinition
+*** ERROR C231 IN LINE 25 OF C:/Keil_v5/C51/INC\reg51.h: 'TMOD': redefinition
+*** ERROR C231 IN LINE 26 OF C:/Keil_v5/C51/INC\reg51.h: 'TL0': redefinition
+*** ERROR C231 IN LINE 27 OF C:/Keil_v5/C51/INC\reg51.h: 'TL1': redefinition
+*** ERROR C231 IN LINE 28 OF C:/Keil_v5/C51/INC\reg51.h: 'TH0': redefinition
+*** ERROR C231 IN LINE 29 OF C:/Keil_v5/C51/INC\reg51.h: 'TH1': redefinition
+*** ERROR C231 IN LINE 30 OF C:/Keil_v5/C51/INC\reg51.h: 'IE': redefinition
+*** ERROR C231 IN LINE 31 OF C:/Keil_v5/C51/INC\reg51.h: 'IP': redefinition
+*** ERROR C231 IN LINE 32 OF C:/Keil_v5/C51/INC\reg51.h: 'SCON': redefinition
+*** ERROR C231 IN LINE 33 OF C:/Keil_v5/C51/INC\reg51.h: 'SBUF': redefinition
+*** ERROR C231 IN LINE 38 OF C:/Keil_v5/C51/INC\reg51.h: 'CY': redefinition
+*** ERROR C231 IN LINE 39 OF C:/Keil_v5/C51/INC\reg51.h: 'AC': redefinition
+*** ERROR C231 IN LINE 40 OF C:/Keil_v5/C51/INC\reg51.h: 'F0': redefinition
+*** ERROR C231 IN LINE 41 OF C:/Keil_v5/C51/INC\reg51.h: 'RS1': redefinition
+*** ERROR C231 IN LINE 42 OF C:/Keil_v5/C51/INC\reg51.h: 'RS0': redefinition
+*** ERROR C231 IN LINE 43 OF C:/Keil_v5/C51/INC\reg51.h: 'OV': redefinition
+*** ERROR C231 IN LINE 44 OF C:/Keil_v5/C51/INC\reg51.h: 'P': redefinition
+*** ERROR C231 IN LINE 47 OF C:/Keil_v5/C51/INC\reg51.h: 'TF1': redefinition
+*** ERROR C231 IN LINE 48 OF C:/Keil_v5/C51/INC\reg51.h: 'TR1': redefinition
+*** ERROR C231 IN LINE 49 OF C:/Keil_v5/C51/INC\reg51.h: 'TF0': redefinition
+*** ERROR C231 IN LINE 50 OF C:/Keil_v5/C51/INC\reg51.h: 'TR0': redefinition
+*** ERROR C231 IN LINE 51 OF C:/Keil_v5/C51/INC\reg51.h: 'IE1': redefinition
+*** ERROR C231 IN LINE 52 OF C:/Keil_v5/C51/INC\reg51.h: 'IT1': redefinition
+*** ERROR C231 IN LINE 53 OF C:/Keil_v5/C51/INC\reg51.h: 'IE0': redefinition
+*** ERROR C231 IN LINE 54 OF C:/Keil_v5/C51/INC\reg51.h: 'IT0': redefinition
+*** ERROR C231 IN LINE 57 OF C:/Keil_v5/C51/INC\reg51.h: 'EA': redefinition
+*** ERROR C231 IN LINE 58 OF C:/Keil_v5/C51/INC\reg51.h: 'ES': redefinition
+*** ERROR C231 IN LINE 59 OF C:/Keil_v5/C51/INC\reg51.h: 'ET1': redefinition
+*** ERROR C231 IN LINE 60 OF C:/Keil_v5/C51/INC\reg51.h: 'EX1': redefinition
+*** ERROR C231 IN LINE 61 OF C:/Keil_v5/C51/INC\reg51.h: 'ET0': redefinition
+*** ERROR C231 IN LINE 62 OF C:/Keil_v5/C51/INC\reg51.h: 'EX0': redefinition
+*** ERROR C231 IN LINE 65 OF C:/Keil_v5/C51/INC\reg51.h: 'PS': redefinition
+*** ERROR C231 IN LINE 66 OF C:/Keil_v5/C51/INC\reg51.h: 'PT1': redefinition
+*** ERROR C231 IN LINE 67 OF C:/Keil_v5/C51/INC\reg51.h: 'PX1': redefinition
+*** ERROR C231 IN LINE 68 OF C:/Keil_v5/C51/INC\reg51.h: 'PT0': redefinition
+*** ERROR C231 IN LINE 69 OF C:/Keil_v5/C51/INC\reg51.h: 'PX0': redefinition
+*** ERROR C231 IN LINE 72 OF C:/Keil_v5/C51/INC\reg51.h: 'RD': redefinition
+*** ERROR C231 IN LINE 73 OF C:/Keil_v5/C51/INC\reg51.h: 'WR': redefinition
+*** ERROR C231 IN LINE 74 OF C:/Keil_v5/C51/INC\reg51.h: 'T1': redefinition
+*** ERROR C231 IN LINE 75 OF C:/Keil_v5/C51/INC\reg51.h: 'T0': redefinition
+*** ERROR C231 IN LINE 76 OF C:/Keil_v5/C51/INC\reg51.h: 'INT1': redefinition
+*** ERROR C231 IN LINE 77 OF C:/Keil_v5/C51/INC\reg51.h: 'INT0': redefinition
+*** ERROR C231 IN LINE 78 OF C:/Keil_v5/C51/INC\reg51.h: 'TXD': redefinition
+*** ERROR C231 IN LINE 79 OF C:/Keil_v5/C51/INC\reg51.h: 'RXD': redefinition
+*** ERROR C231 IN LINE 82 OF C:/Keil_v5/C51/INC\reg51.h: 'SM0': redefinition
+*** ERROR C231 IN LINE 83 OF C:/Keil_v5/C51/INC\reg51.h: 'SM1': redefinition
+*** ERROR C231 IN LINE 84 OF C:/Keil_v5/C51/INC\reg51.h: 'SM2': redefinition
+*** ERROR C231 IN LINE 85 OF C:/Keil_v5/C51/INC\reg51.h: 'REN': redefinition
+*** ERROR C231 IN LINE 86 OF C:/Keil_v5/C51/INC\reg51.h: 'TB8': redefinition
+*** ERROR C231 IN LINE 87 OF C:/Keil_v5/C51/INC\reg51.h: 'RB8': redefinition
+*** ERROR C231 IN LINE 88 OF C:/Keil_v5/C51/INC\reg51.h: 'TI': redefinition
+*** ERROR C231 IN LINE 89 OF C:/Keil_v5/C51/INC\reg51.h: 'RI': redefinition
+*** ERROR C141 IN LINE 104 OF .\SRC\MAIN.C: syntax error near ';', expected '<id>'
+*** ERROR C237 IN LINE 129 OF .\SRC\MAIN.C: 'main': function already has a body
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  65 ERROR(S)
+
+[2024-05-06 17:08:29]	compilation failed at : "d:\BFOE\3rd_year\2nd_term_2024\Microprocessor based system (b)-E1322\Projects\c-projects\calc_uart\uart_lcd\src\main.c", exit code: 2
+command: 
+  "C:\Keil_v5\C51\BIN\C51.exe" .\src\main.c OMF2 TABS(4) CODE NOCOND SYMBOLS PRINT(.\build\Release\.obj\src\main.lst) INCDIR(C:/Keil_v5/C51/INC;src) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) OBJECT(.\build\Release\.obj\src\main.o)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: Eval Version
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C141 IN LINE 104 OF .\SRC\MAIN.C: syntax error near ';', expected '<id>'
+*** ERROR C237 IN LINE 129 OF .\SRC\MAIN.C: 'main': function already has a body
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  2 ERROR(S)
+
+[2024-05-06 17:11:15]	compilation failed at : "d:\BFOE\3rd_year\2nd_term_2024\Microprocessor based system (b)-E1322\Projects\c-projects\calc_uart\uart_lcd\src\main.c", exit code: 2
+command: 
+  "C:\Keil_v5\C51\BIN\C51.exe" .\src\main.c OMF2 TABS(4) CODE NOCOND SYMBOLS PRINT(.\build\Release\.obj\src\main.lst) INCDIR(C:/Keil_v5/C51/INC;src) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) OBJECT(.\build\Release\.obj\src\main.o)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: Eval Version
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C141 IN LINE 104 OF .\SRC\MAIN.C: syntax error near ';', expected '<id>'
+*** ERROR C237 IN LINE 129 OF .\SRC\MAIN.C: 'main': function already has a body
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  2 ERROR(S)
+
+[2024-05-06 17:11:30]	[done]
+	build successfully !
+
+[2024-05-06 17:13:10]	[done]
+	build successfully !
+
+[2024-05-06 17:13:35]	[done]
+	build successfully !
+
+[2024-05-06 17:27:24]	[done]
+	build successfully !
+
+[2024-05-06 17:40:31]	[done]
+	build successfully !
+
+[2024-05-06 17:56:27]	[done]
+	build successfully !
+

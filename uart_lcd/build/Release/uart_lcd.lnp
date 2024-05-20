@@ -1,0 +1,2 @@
+.\build\Release\.obj\src\main.o TO .\build\Release\uart_lcd
+PRINT(.\build\Release\uart_lcd.map) REMOVEUNUSED
